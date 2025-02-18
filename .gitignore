@@ -169,3 +169,28 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+
+# Ignore GCP service account keys
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+
+# Ignore virtual environments
+venv/
+.env
+Pipfile
+Pipfile.lock
+
+# Ignore IDE configuration files
+*.json  # Prevent accidental upload of GCP service account keys
+logs/
+storage/
+
+# Ignore temporary files
+temp/
+tmp/
+dataflow-temp/
+
